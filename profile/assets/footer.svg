@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1012" />
+      <stop offset="100%" stop-color="#070809" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="110" rx="10" fill="url(#footerBg)" stroke="#222529" stroke-width="1.2" />
+
+  <!-- Left Accent Pulse -->
+  <g transform="translate(45, 40)">
+    <circle cx="0" cy="15" r="4" fill="#B6FF3B" />
+    <circle cx="0" cy="15" r="9" fill="none" stroke="#B6FF3B" stroke-opacity="0.25" />
+    
+    <text x="24" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#F1F0EA">
+      YOU IMAGINE IT, WE BUILD IT<tspan fill="#B6FF3B">.</tspan>
+    </text>
+    <text x="24" y="28" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E737A" letter-spacing="1.5">
+      ESSENBYTE SOLUTIONS // END-TO-END ENGINEERING &amp; DIGITAL INFRASTRUCTURE
+    </text>
+  </g>
+
+  <!-- Right Side: Links & Domain -->
+  <g transform="translate(980, 42)">
+    <text x="175" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#B6FF3B" text-anchor="end" letter-spacing="1">
+      ESSENBYTE.COM ↗
+    </text>
+    <text x="175" y="28" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E737A" text-anchor="end" letter-spacing="0.5">
+      BUCHAREST, RO · GLOBAL SCALE
+    </text>
+  </g>
+</svg>

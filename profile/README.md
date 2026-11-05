@@ -1,301 +1,174 @@
- 
 <!--
-  ESSENBYTE SOLUTIONS
-  Organization GitHub profile.
-  Engineered, not templated.
+  E S S E N B Y T E   S O L U T I O N S
+  GitHub Organization Profile. Engineered for reality. Built to scale.
+  Assets located in ./assets/.
 -->
 
 <div align="center">
-
-  <img src="https://essenbyte.com" width="0" alt="" />
-
-  <h1>ESSENBYTE SOLUTIONS</h1>
-
-  <p><strong>Engineering digital systems that work in the real world.</strong></p>
+  <img src="./assets/hero.svg" width="100%" alt="EssenByte Solutions — Scalable digital platforms, hardened backend systems & operational infrastructure." />
 
   <br />
 
-  <a href="https://essenbyte.com">
-    <img src="https://img.shields.io/badge/WEBSITE-essenbyte.com-B6FF3B?style=for-the-badge&labelColor=0C0D0E&logoColor=0C0D0E" alt="EssenByte Website" />
-  </a>
-
-  <a href="https://scoreengine.online">
-    <img src="https://img.shields.io/badge/PRODUCT-ScoreEngine-47A9FF?style=for-the-badge&labelColor=0C0D0E" alt="ScoreEngine" />
-  </a>
-
-  <a href="mailto:office@essenbyte.com">
-    <img src="https://img.shields.io/badge/CONTACT-Get%20in%20touch-F1F0EA?style=for-the-badge&labelColor=0C0D0E" alt="Contact EssenByte" />
-  </a>
+  <a href="https://essenbyte.com"><img src="https://img.shields.io/badge/WEBSITE-essenbyte.com-B6FF3B?style=for-the-badge&labelColor=0C0D0E&color=B6FF3B" alt="EssenByte Website" /></a>
+  <a href="https://scoreengine.online"><img src="https://img.shields.io/badge/PLATFORM-ScoreEngine-141619?style=for-the-badge&labelColor=0C0D0E&color=B6FF3B" alt="ScoreEngine Platform" /></a>
+  <a href="mailto:office@essenbyte.com"><img src="https://img.shields.io/badge/CONNECT-office%40essenbyte.com-141619?style=for-the-badge&labelColor=0C0D0E&color=F1F0EA" alt="Contact Email" /></a>
 
   <br /><br />
 
-  **Software Engineering** &nbsp; · &nbsp; **Infrastructure** &nbsp; · &nbsp; **Security** &nbsp; · &nbsp; **Digital Products**
+  <b>Digital Systems Architecture &nbsp;·&nbsp; Cloud Infrastructure &nbsp;·&nbsp; Security Hardening &nbsp;·&nbsp; Real-Time Operations</b>
 
   <br /><br />
 
-  <a href="#what-we-do">What we do</a> &nbsp; • &nbsp;
-  <a href="#our-products">Products</a> &nbsp; • &nbsp;
-  <a href="#technology">Technology</a> &nbsp; • &nbsp;
-  <a href="#our-approach">Our approach</a> &nbsp; • &nbsp;
-  <a href="#contact">Contact</a>
+  <a href="#about-essenbyte">About</a> &nbsp; • &nbsp;
+  <a href="#what-we-deliver">Capabilities</a> &nbsp; • &nbsp;
+  <a href="#engineering-pipeline">Pipeline</a> &nbsp; • &nbsp;
+  <a href="#ecosystem--platforms">Ecosystem</a> &nbsp; • &nbsp;
+  <a href="#production-stack">Stack</a> &nbsp; • &nbsp;
+  <a href="#connect-with-us">Contact</a>
 
 </div>
 
 <br />
 
----
+## About EssenByte
 
-## Engineering beyond the interface.
+**EssenByte Solutions** is a technology and systems engineering brand focused on building, deploying, and operating **resilient digital platforms and scalable infrastructure**.
 
-**EssenByte Solutions is a technology brand focused on building, deploying and maintaining digital systems.**
+We don't do superficial templates or fragile demos. We bridge the gap between high-level architectural design and the gritty reality of production: **relational database schemas, asynchronous API services, strict role-based access control, Linux host hardening, containerized deployments, and high-availability operations.**
 
-We work across the entire engineering lifecycle — from product architecture and software development to infrastructure, deployment, security and ongoing operations.
+> **“You imagine it, we build it.”**  
+> Scalable software, hardened infrastructure, and zero tolerance for “it works on my machine.”
 
-Our focus is not simply delivering code.
+<br />
 
-It is building systems that are **reliable, maintainable, secure and designed to operate in the real world.**
-
-We develop our own products, engineer custom software solutions and operate infrastructure supporting digital platforms.
-
-> You imagine it, we build it.
-
-## What we do
+## What we deliver
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-
-### 01 — Software Engineering
-
-We design and develop custom software, web applications, APIs and digital platforms.
-
-- Full-stack application development
-- Backend architecture and API engineering
-- Authentication and access control
-- Real-time systems and application workflows
-- Database design and optimization
-- Product development and integration
-
+    <td width="33%" valign="top">
+      <h3><code>01</code> — Software Systems</h3>
+      <p>Custom <strong>reactive web applications, platforms, and versioned APIs</strong>. Architected with Next.js, asynchronous Python, and real-time WebSockets. Clean domain modeling, multi-tenant isolation, and intuitive UX.</p>
     </td>
-    <td width="50%" valign="top">
-
-### 02 — Infrastructure & Operations
-
-We build and operate the infrastructure behind production applications.
-
-- Linux server administration
-- Docker and containerized environments
-- Application deployment and orchestration
-- Database and caching infrastructure
-- Reverse proxies and networking
-- Monitoring, backups and maintenance
-
+    <td width="33%" valign="top">
+      <h3><code>02</code> — Infrastructure & Cloud</h3>
+      <p>Dedicated <strong>Linux server orchestration, Docker container stacks, and high-performance reverse proxies</strong>. Configured with automated off-site backups, resource monitoring, and Cloudflare edge acceleration.</p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 03 — Security Engineering
-
-Security is considered throughout the development and operational lifecycle.
-
-- Application security
-- Infrastructure hardening
-- Authentication and authorization
-- Secure session management
-- Vulnerability assessment and remediation
-- Security-focused architecture reviews
-
-    </td>
-    <td width="50%" valign="top">
-
-### 04 — Digital Products
-
-We develop and operate products that solve real operational problems.
-
-- Competition management platforms
-- Custom business applications
-- E-commerce systems
-- Digital workflow automation
-- Platform integrations
-- Technology solutions for specialized industries
-
+    <td width="33%" valign="top">
+      <h3><code>03</code> — Security & Operations</h3>
+      <p>Production hardening from day zero: <strong>HttpOnly authentication, CSRF guards, RBAC, rate-limiting, and data encryption</strong>. Preventive maintenance and fast incident mitigation to keep platforms online.</p>
     </td>
   </tr>
 </table>
 
-## Our products
+<br />
 
-We build products that combine software engineering with practical operational requirements.
+## Engineering Pipeline
 
+<p align="center">
+  <img src="./assets/workflow.svg" width="100%" alt="EssenByte Solutions Engineering Workflow: Architecture, Core Stack, Security Hardening, Infrastructure, Operations." />
+</p>
+
+<br />
+
+## Ecosystem & Platforms
+
+<!-- Production platforms and live projects engineered or operated by EssenByte Solutions -->
 <table>
   <tr>
     <td width="50%" valign="top">
-
-### ⚡ [ScoreEngine](https://scoreengine.online)
-
-**Competition management, engineered.**
-
-A competition management platform designed to support the operational complexity of real-world competitions.
-
-ScoreEngine brings together participant registration, teams, competition administration, refereeing and event workflows into a unified ecosystem.
-
-<code>Product Engineering</code>
-<code>Full-Stack</code>
-<code>Competition Systems</code>
-
-<br />
-
-<a href="https://scoreengine.online"><strong>Explore ScoreEngine →</strong></a>
-
+      <h3>⚡ <a href="https://scoreengine.online">ScoreEngine</a></h3>
+      <p><strong>Next-generation competition &amp; tournament management ecosystem.</strong></p>
+      <p>Engineered to handle high-concurrency event operations: team registrations, participant consent workflows, refereeing scoring grids, and low-latency real-time state synchronization.</p>
+      <p><code>Real-time scoring</code> <code>Python / Next.js</code> <code>WebSockets</code> <code>RBAC</code></p>
+      <p><strong><a href="https://scoreengine.online">Explore ScoreEngine →</a></strong></p>
     </td>
     <td width="50%" valign="top">
-
-### ◈ [EssenByte Solutions](https://essenbyte.com)
-
-**Technology solutions built around execution.**
-
-Our engineering services cover custom software, web platforms, infrastructure, managed hosting and security.
-
-From initial architecture to production deployment, we focus on the complete system.
-
-<code>Software</code>
-<code>Infrastructure</code>
-<code>Security</code>
-
-<br />
-
-<a href="https://essenbyte.com"><strong>Explore EssenByte →</strong></a>
-
+      <h3>🤖 <a href="https://challenge.relativity.ro">Relativity Robotics Challenge</a></h3>
+      <p><strong>Official Technical Infrastructure Partner.</strong></p>
+      <p>EssenByte powers the mission-critical technical infrastructure behind RRC: participant qualification portals, match coordination, jury verification systems, and event reliability.</p>
+      <p><code>Event infrastructure</code> <code>Live operations</code> <code>Robotics ecosystem</code></p>
+      <p><strong><a href="https://challenge.relativity.ro">Explore Relativity Challenge →</a></strong></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-
-### ⬡ [VoxelWorks](https://voxelworks.ro)
-
-**Digital manufacturing meets software.**
-
-A personalized-products and manufacturing project combining e-commerce, laser engraving, 3D printing and custom product development.
-
-<code>E-Commerce</code>
-<code>3D Printing</code>
-<code>Manufacturing</code>
-
-<br />
-
-<a href="https://voxelworks.ro"><strong>Explore VoxelWorks →</strong></a>
-
+      <h3>⬡ <a href="https://voxelworks.ro">VoxelWorks</a></h3>
+      <p><strong>Where e-commerce meets automated digital manufacturing.</strong></p>
+      <p>Custom-built operational software connecting consumer orders directly to physical production: 4mm poplar plywood laser processing, custom A4 frames, and 3D prototyping workflows.</p>
+      <p><code>Digital manufacturing</code> <code>E-Commerce</code> <code>Automated workflows</code></p>
+      <p><strong><a href="https://voxelworks.ro">Explore VoxelWorks →</a></strong></p>
     </td>
     <td width="50%" valign="top">
-
-### 🤖 [Relativity Robotics Challenge](https://challenge.relativity.ro)
-
-**Technology supporting international robotics.**
-
-We contribute to the technical ecosystem behind the Relativity Robotics Challenge, including competition platforms, participant workflows and digital infrastructure.
-
-<code>Competition Technology</code>
-<code>Robotics</code>
-<code>Platform Engineering</code>
-
-<br />
-
-<a href="https://challenge.relativity.ro"><strong>Explore RRC →</strong></a>
-
+      <h3>◈ <a href="https://essenbyte.com">EssenByte Core Systems</a></h3>
+      <p><strong>Unified corporate &amp; API digital infrastructure.</strong></p>
+      <p>Centralized authentication, role management, unified API gateway (<code>api.essenbyte.com/v1</code>), secure asset storage, and hosting virtualization for internal and client services.</p>
+      <p><code>Docker</code> <code>Python API</code> <code>MariaDB + Redis</code> <code>Cloudflare</code></p>
+      <p><strong><a href="https://essenbyte.com">Visit EssenByte.com →</a></strong></p>
     </td>
   </tr>
 </table>
 
-## Technology
+<br />
 
-Our technology choices are driven by the requirements of the system — performance, maintainability, reliability and operational simplicity.
+## Production Stack
 
-### Application development
+<!-- Core technologies utilized across EssenByte Solutions production infrastructure -->
 
-<p>
-  <img src="https://img.shields.io/badge/Python-0C0D0E?style=flat-square&logo=python&logoColor=64A9F7" alt="Python" />
-  <img src="https://img.shields.io/badge/PHP-0C0D0E?style=flat-square&logo=php&logoColor=89A3E8" alt="PHP" />
-  <img src="https://img.shields.io/badge/JavaScript-0C0D0E?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C%20%2F%20C++-0C0D0E?style=flat-square&logo=cplusplus&logoColor=68A7FE" alt="C and C++" />
-  <img src="https://img.shields.io/badge/Next.js-0C0D0E?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
-</p>
-
-### Infrastructure & data
+**Application & API Engineering**
 
 <p>
-  <img src="https://img.shields.io/badge/Linux-0C0D0E?style=flat-square&logo=linux&logoColor=F3CC64" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-0C0D0E?style=flat-square&logo=docker&logoColor=329EF1" alt="Docker" />
-  <img src="https://img.shields.io/badge/MariaDB-0C0D0E?style=flat-square&logo=mariadb&logoColor=C7AA8B" alt="MariaDB" />
-  <img src="https://img.shields.io/badge/Redis-0C0D0E?style=flat-square&logo=redis&logoColor=F65A5A" alt="Redis" />
-  <img src="https://img.shields.io/badge/Cloudflare-0C0D0E?style=flat-square&logo=cloudflare&logoColor=F1A752" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Nginx-0C0D0E?style=flat-square&logo=nginx&logoColor=59C388" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Next.js-0C0D0E?style=flat-square&logo=nextdotjs&logoColor=F1F0EA" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-0C0D0E?style=flat-square&logo=python&logoColor=B6FF3B" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-0C0D0E?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/REST_API_/api/v1-0C0D0E?style=flat-square&logo=fastapi&logoColor=009688" alt="API" />
+  <img src="https://img.shields.io/badge/WebSockets-0C0D0E?style=flat-square&logo=socketdotio&logoColor=B6FF3B" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0C0D0E?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
 </p>
 
-### Engineering principles
+**Data Plane & State Management**
 
-- **Architecture first** — design systems around their actual requirements.
-- **Security by design** — consider security from the beginning, not as a final patch.
-- **Automation over repetition** — reduce operational complexity through automation.
-- **Reliability over shortcuts** — build for long-term operation, not just initial delivery.
-- **Ownership beyond deployment** — understand how software behaves in production.
+<p>
+  <img src="https://img.shields.io/badge/MariaDB-0C0D0E?style=flat-square&logo=mariadb&logoColor=003545" alt="MariaDB" />
+  <img src="https://img.shields.io/badge/Redis-0C0D0E?style=flat-square&logo=redis&logoColor=DC382D" alt="Redis" />
+  <img src="https://img.shields.io/badge/Asynchronous_Queues-0C0D0E?style=flat-square&logo=celery&logoColor=B6FF3B" alt="Workers & Queues" />
+  <img src="https://img.shields.io/badge/Automated_Offsite_Backups-0C0D0E?style=flat-square&logo=googlecloud&logoColor=4285F4" alt="Cloud Backups" />
+</p>
 
-## Our approach
+**Infrastructure, Hardening & Delivery**
+
+<p>
+  <img src="https://img.shields.io/badge/Docker_Containers-0C0D0E?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux_Host_(Hetzner/OVH)-0C0D0E?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
+  <img src="https://img.shields.io/badge/Nginx_Reverse_Proxy-0C0D0E?style=flat-square&logo=nginx&logoColor=009639" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Cloudflare_CDN_&_DDoS-0C0D0E?style=flat-square&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/RBAC_&_CSRF_Hardened-0C0D0E?style=flat-square&logo=auth0&logoColor=B6FF3B" alt="Security" />
+</p>
+
+<br />
+
+## The EssenByte Standard
 
 ```text
-Understand the problem
-        ↓
-Design the architecture
-        ↓
-Build the system
-        ↓
-Secure and validate
-        ↓
-Deploy to production
-        ↓
-Monitor, maintain and improve
++-------------------------------------------------------------------------+
+|  01.  Clean Architecture    Modular services, versioned APIs & clean DB |
+|  02.  Defensive Security    Zero trust, RBAC, HttpOnly cookies, CSRF    |
+|  03.  Deterministic Infra   Isolated Docker containers, automated tasks |
+|  04.  Real-World Execution  Built to stay up, tested under real load    |
++-------------------------------------------------------------------------+
 ```
 
-We believe good engineering is not defined by the number of technologies used.
+<br />
 
-It is defined by how well the resulting system solves the problem.
+## Connect with Us
 
-## Open source & collaboration
-
-We believe in sharing useful engineering work, contributing to the developer ecosystem and building technology that others can learn from.
-
-Our GitHub organization brings together repositories related to:
-
-- Software products and platform development
-- Infrastructure and automation
-- Engineering tools and utilities
-- Robotics and embedded systems
-- Open-source contributions
-
-Not every repository represents a standalone product. Some are components, experiments or internal engineering tools.
-
-## Contact
-
-Have a project, a technical challenge or an idea worth building?
-
-We are interested in working on systems that require thoughtful engineering, practical execution and long-term reliability.
+Have an ambitious digital platform, complex operational workflow, or high-reliability infrastructure need? Let's build it right.
 
 <div align="center">
-
-  <a href="https://essenbyte.com">
-    <img src="https://img.shields.io/badge/WEBSITE-essenbyte.com-B6FF3B?style=for-the-badge&labelColor=0C0D0E" alt="Website" />
-  </a>
-
-  <a href="mailto:office@essenbyte.com">
-    <img src="https://img.shields.io/badge/EMAIL-office%40essenbyte.com-47A9FF?style=for-the-badge&labelColor=0C0D0E" alt="Email" />
-  </a>
+  <a href="https://essenbyte.com"><img src="https://img.shields.io/badge/EXPLORE-essenbyte.com-B6FF3B?style=for-the-badge&labelColor=0C0D0E&color=B6FF3B" alt="Website" /></a>
+  <a href="mailto:office@essenbyte.com"><img src="https://img.shields.io/badge/EMAIL-office%40essenbyte.com-141619?style=for-the-badge&labelColor=0C0D0E&color=F1F0EA" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/lucian-mihai-lup%C8%99%C4%83-696442277/"><img src="https://img.shields.io/badge/FOUNDER-Lucian--Mihai%20Lupșă-141619?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0C0D0E&color=B6FF3B" alt="Founder LinkedIn" /></a>
 
   <br /><br />
 
-  <strong>You imagine it, we build it.</strong>
-
-  <br /><br />
-
-  <sub>© EssenByte Solutions · Software Engineering · Infrastructure · Security</sub>
-
+  <img src="./assets/footer.svg" width="100%" alt="You imagine it, we build it. EssenByte Solutions." />
 </div>
