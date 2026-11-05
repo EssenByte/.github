@@ -9,9 +9,9 @@
 
   <br />
 
-  <a href="https://essenbyte.com"><img src="https://img.shields.io/badge/WEBSITE-essenbyte.com-B6FF3B?style=for-the-badge&labelColor=0C0D0E&color=B6FF3B" alt="EssenByte Website" /></a>
-  <a href="https://scoreengine.online"><img src="https://img.shields.io/badge/PLATFORM-ScoreEngine-141619?style=for-the-badge&labelColor=0C0D0E&color=B6FF3B" alt="ScoreEngine Platform" /></a>
-  <a href="mailto:office@essenbyte.com"><img src="https://img.shields.io/badge/CONNECT-office%40essenbyte.com-141619?style=for-the-badge&labelColor=0C0D0E&color=F1F0EA" alt="Contact Email" /></a>
+  <a href="https://essenbyte.com"><img src="https://img.shields.io/badge/WEBSITE-essenbyte.com-3779F5?style=for-the-badge&labelColor=0B1627" alt="EssenByte Website" /></a>
+  <a href="https://scoreengine.online"><img src="https://img.shields.io/badge/PLATFORM-ScoreEngine-47A9FF?style=for-the-badge&labelColor=0B1627" alt="ScoreEngine Platform" /></a>
+  <a href="mailto:office@essenbyte.com"><img src="https://img.shields.io/badge/CONNECT-office%40essenbyte.com-1D4775?style=for-the-badge&labelColor=0B1627" alt="Contact Email" /></a>
 
   <br /><br />
 
@@ -117,31 +117,31 @@ We don't do superficial templates or fragile demos. We bridge the gap between hi
 **Application & API Engineering**
 
 <p>
-  <img src="https://img.shields.io/badge/Next.js-0C0D0E?style=flat-square&logo=nextdotjs&logoColor=F1F0EA" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Python-0C0D0E?style=flat-square&logo=python&logoColor=B6FF3B" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-0C0D0E?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/REST_API_/api/v1-0C0D0E?style=flat-square&logo=fastapi&logoColor=009688" alt="API" />
-  <img src="https://img.shields.io/badge/WebSockets-0C0D0E?style=flat-square&logo=socketdotio&logoColor=B6FF3B" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0C0D0E?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Next.js-0B1627?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-0B1627?style=flat-square&logo=python&logoColor=64A9F7" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-0B1627?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/REST_API_/api/v1-0B1627?style=flat-square&logo=fastapi&logoColor=50BFFC" alt="API" />
+  <img src="https://img.shields.io/badge/WebSockets-0B1627?style=flat-square&logo=socketdotio&logoColor=8BD4FF" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0B1627?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
 </p>
 
 **Data Plane & State Management**
 
 <p>
-  <img src="https://img.shields.io/badge/MariaDB-0C0D0E?style=flat-square&logo=mariadb&logoColor=003545" alt="MariaDB" />
-  <img src="https://img.shields.io/badge/Redis-0C0D0E?style=flat-square&logo=redis&logoColor=DC382D" alt="Redis" />
-  <img src="https://img.shields.io/badge/Asynchronous_Queues-0C0D0E?style=flat-square&logo=celery&logoColor=B6FF3B" alt="Workers & Queues" />
-  <img src="https://img.shields.io/badge/Automated_Offsite_Backups-0C0D0E?style=flat-square&logo=googlecloud&logoColor=4285F4" alt="Cloud Backups" />
+  <img src="https://img.shields.io/badge/MariaDB-0B1627?style=flat-square&logo=mariadb&logoColor=C7AA8B" alt="MariaDB" />
+  <img src="https://img.shields.io/badge/Redis-0B1627?style=flat-square&logo=redis&logoColor=F65A5A" alt="Redis" />
+  <img src="https://img.shields.io/badge/Asynchronous_Queues-0B1627?style=flat-square&logo=celery&logoColor=50BFFC" alt="Workers & Queues" />
+  <img src="https://img.shields.io/badge/Automated_Offsite_Backups-0B1627?style=flat-square&logo=googlecloud&logoColor=4285F4" alt="Cloud Backups" />
 </p>
 
 **Infrastructure, Hardening & Delivery**
 
 <p>
-  <img src="https://img.shields.io/badge/Docker_Containers-0C0D0E?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux_Host_(Hetzner/OVH)-0C0D0E?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-  <img src="https://img.shields.io/badge/Nginx_Reverse_Proxy-0C0D0E?style=flat-square&logo=nginx&logoColor=009639" alt="Nginx" />
-  <img src="https://img.shields.io/badge/Cloudflare_CDN_&_DDoS-0C0D0E?style=flat-square&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/RBAC_&_CSRF_Hardened-0C0D0E?style=flat-square&logo=auth0&logoColor=B6FF3B" alt="Security" />
+  <img src="https://img.shields.io/badge/Docker_Containers-0B1627?style=flat-square&logo=docker&logoColor=329EF1" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux_Host_(Hetzner/OVH)-0B1627?style=flat-square&logo=linux&logoColor=F3CC64" alt="Linux" />
+  <img src="https://img.shields.io/badge/Nginx_Reverse_Proxy-0B1627?style=flat-square&logo=nginx&logoColor=59C388" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Cloudflare_CDN_&_DDoS-0B1627?style=flat-square&logo=cloudflare&logoColor=F1A752" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/RBAC_&_CSRF_Hardened-0B1627?style=flat-square&logo=auth0&logoColor=50BFFC" alt="Security" />
 </p>
 
 <br />
@@ -164,9 +164,9 @@ We don't do superficial templates or fragile demos. We bridge the gap between hi
 Have an ambitious digital platform, complex operational workflow, or high-reliability infrastructure need? Let's build it right.
 
 <div align="center">
-  <a href="https://essenbyte.com"><img src="https://img.shields.io/badge/EXPLORE-essenbyte.com-B6FF3B?style=for-the-badge&labelColor=0C0D0E&color=B6FF3B" alt="Website" /></a>
-  <a href="mailto:office@essenbyte.com"><img src="https://img.shields.io/badge/EMAIL-office%40essenbyte.com-141619?style=for-the-badge&labelColor=0C0D0E&color=F1F0EA" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/lucian-mihai-lup%C8%99%C4%83-696442277/"><img src="https://img.shields.io/badge/FOUNDER-Lucian--Mihai%20Lupșă-141619?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0C0D0E&color=B6FF3B" alt="Founder LinkedIn" /></a>
+  <a href="https://essenbyte.com"><img src="https://img.shields.io/badge/EXPLORE-essenbyte.com-3779F5?style=for-the-badge&labelColor=0A1424" alt="Website" /></a>
+  <a href="mailto:office@essenbyte.com"><img src="https://img.shields.io/badge/EMAIL-office%40essenbyte.com-1D4775?style=for-the-badge&labelColor=0A1424" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/lucian-mihai-lup%C8%99%C4%83-696442277/"><img src="https://img.shields.io/badge/FOUNDER-Lucian--Mihai%20Lupșă-2866BD?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A1424" alt="Founder LinkedIn" /></a>
 
   <br /><br />
 

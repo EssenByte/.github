@@ -1,33 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="100%">
   <defs>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E1012" />
-      <stop offset="100%" stop-color="#070809" />
+      <stop offset="0%" stop-color="#081020" />
+      <stop offset="100%" stop-color="#050A14" />
+    </linearGradient>
+    <linearGradient id="brandLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3169ED" />
+      <stop offset="100%" stop-color="#50BFFC" />
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="110" rx="10" fill="url(#footerBg)" stroke="#222529" stroke-width="1.2" />
+  <rect width="1200" height="110" rx="10" fill="url(#footerBg)" stroke="#1D2E4D" stroke-width="1.2" />
 
-  <!-- Left Accent Pulse -->
-  <g transform="translate(45, 40)">
-    <circle cx="0" cy="15" r="4" fill="#B6FF3B" />
-    <circle cx="0" cy="15" r="9" fill="none" stroke="#B6FF3B" stroke-opacity="0.25" />
-    
-    <text x="24" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#F1F0EA">
-      YOU IMAGINE IT, WE BUILD IT<tspan fill="#B6FF3B">.</tspan>
+  <!-- Left Mini Mark & Tagline -->
+  <g transform="translate(45, 30)">
+    <!-- Mini Logo -->
+    <rect x="0" y="2" width="46" height="46" rx="12" fill="url(#brandLogoGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+    <g transform="translate(7, 9) scale(0.98)">
+      <path d="M7 6.5h12.8M7 16h11M7 25.5h12.8M7 6.5v19M20 6.5h1.8c4 0 5.1 5.9.9 9.2 4.5 3.1 4.6 9.8-.8 9.8H20" 
+            stroke="#FFFFFF" 
+            stroke-width="2.8" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            fill="none" />
+    </g>
+
+    <text x="64" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#EFF5FF">
+      YOU IMAGINE IT, WE BUILD IT<tspan fill="#50BFFC">.</tspan>
     </text>
-    <text x="24" y="28" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E737A" letter-spacing="1.5">
+    <text x="64" y="40" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E85A8" letter-spacing="1.5">
       ESSENBYTE SOLUTIONS // END-TO-END ENGINEERING &amp; DIGITAL INFRASTRUCTURE
     </text>
   </g>
 
   <!-- Right Side: Links & Domain -->
   <g transform="translate(980, 42)">
-    <text x="175" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#B6FF3B" text-anchor="end" letter-spacing="1">
+    <text x="175" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#50BFFC" text-anchor="end" letter-spacing="1">
       ESSENBYTE.COM ↗
     </text>
-    <text x="175" y="28" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E737A" text-anchor="end" letter-spacing="0.5">
-      BUCHAREST, RO · GLOBAL SCALE
+    <text x="175" y="28" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E85A8" text-anchor="end" letter-spacing="0.5">
+      BUCHAREST, RO · PRODUCTION SCALE
     </text>
   </g>
 </svg>

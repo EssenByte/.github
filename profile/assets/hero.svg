@@ -1,139 +1,152 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Gradient: Midnight Dark Blue -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0C0D0E" />
-      <stop offset="60%" stop-color="#111315" />
-      <stop offset="100%" stop-color="#090A0B" />
+      <stop offset="0%" stop-color="#060C1A" />
+      <stop offset="50%" stop-color="#091326" />
+      <stop offset="100%" stop-color="#050914" />
     </linearGradient>
 
-    <!-- Subtle Radial Glow behind Accent -->
-    <radialGradient id="limeGlow" cx="15%" cy="30%" r="45%">
-      <stop offset="0%" stop-color="#B6FF3B" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#0C0D0E" stop-opacity="0" />
+    <!-- Radial Blue Atmosphere Glow -->
+    <radialGradient id="blueGlow" cx="20%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#3169ED" stop-opacity="0.16" />
+      <stop offset="60%" stop-color="#1A4DB8" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#060C1A" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#222529" stroke-width="0.7" stroke-opacity="0.6"/>
-      <circle cx="0" cy="0" r="1" fill="#383A3E" />
+    <radialGradient id="cyanGlow" cx="85%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#50BFFC" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#060C1A" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Tech Grid Pattern -->
+    <pattern id="techGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1B2A45" stroke-width="0.8" stroke-opacity="0.5"/>
+      <circle cx="0" cy="0" r="1" fill="#24375A" />
     </pattern>
 
-    <!-- Linear Accent Gradient -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#B6FF3B" />
-      <stop offset="100%" stop-color="#8CE81E" />
+    <!-- Official Brand Mark Gradient -->
+    <linearGradient id="brandLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3169ED" />
+      <stop offset="100%" stop-color="#50BFFC" />
     </linearGradient>
 
+    <!-- Badge Card Gradient -->
     <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1A1D21" />
-      <stop offset="100%" stop-color="#121417" />
+      <stop offset="0%" stop-color="#0F1F38" />
+      <stop offset="100%" stop-color="#0A1628" />
     </linearGradient>
+
+    <!-- Glow Filter for Official Mark -->
+    <filter id="markShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#216FE0" flood-opacity="0.35" />
+    </filter>
   </defs>
 
   <!-- Background Base -->
   <rect width="1200" height="340" fill="url(#bgGrad)" rx="14" />
-  <rect width="1200" height="340" fill="url(#limeGlow)" rx="14" />
+  <rect width="1200" height="340" fill="url(#blueGlow)" rx="14" />
+  <rect width="1200" height="340" fill="url(#cyanGlow)" rx="14" />
   <rect width="1200" height="340" fill="url(#techGrid)" rx="14" />
 
   <!-- Outer Precision Border -->
-  <rect x="1" y="1" width="1198" height="338" fill="none" stroke="#222529" stroke-width="1.5" rx="14" />
+  <rect x="1" y="1" width="1198" height="338" fill="none" stroke="#1D2E4D" stroke-width="1.5" rx="14" />
 
-  <!-- Corner Brackets (High-Tech Framing) -->
-  <path d="M 25 45 L 25 25 L 45 25" fill="none" stroke="#B6FF3B" stroke-width="2" />
-  <path d="M 1175 45 L 1175 25 L 1155 25" fill="none" stroke="#383A3E" stroke-width="2" />
-  <path d="M 25 295 L 25 315 L 45 315" fill="none" stroke="#383A3E" stroke-width="2" />
-  <path d="M 1175 295 L 1175 315 L 1155 315" fill="none" stroke="#B6FF3B" stroke-width="2" />
+  <!-- High-Tech Corner Brackets -->
+  <path d="M 25 45 L 25 25 L 45 25" fill="none" stroke="#3D7BFA" stroke-width="2" />
+  <path d="M 1175 45 L 1175 25 L 1155 25" fill="none" stroke="#24375A" stroke-width="2" />
+  <path d="M 25 295 L 25 315 L 45 315" fill="none" stroke="#24375A" stroke-width="2" />
+  <path d="M 1175 295 L 1175 315 L 1155 315" fill="none" stroke="#50BFFC" stroke-width="2" />
 
   <!-- Top Metadata Header Line -->
   <g transform="translate(60, 48)">
-    <circle cx="0" cy="0" r="3.5" fill="#B6FF3B" />
-    <text x="14" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" letter-spacing="2.5" fill="#9B9E99">
-      ORG ID: ESSENBYTE SOLUTIONS <tspan fill="#383A3E">|</tspan> DIGITAL INFRASTRUCTURE &amp; PLATFORMS <tspan fill="#383A3E">|</tspan> EST. BUCHAREST
+    <circle cx="0" cy="0" r="3.5" fill="#50BFFC" />
+    <text x="14" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" letter-spacing="2.5" fill="#8FA4C7">
+      ORG ID: ESSENBYTE SOLUTIONS <tspan fill="#24375A">|</tspan> DIGITAL INFRASTRUCTURE &amp; PLATFORMS <tspan fill="#24375A">|</tspan> EST. BUCHAREST
     </text>
-    <line x1="880" y1="0" x2="1080" y2="0" stroke="#222529" stroke-width="1" />
-    <circle cx="1080" cy="0" r="2" fill="#B6FF3B" />
+    <line x1="880" y1="0" x2="1080" y2="0" stroke="#1D2E4D" stroke-width="1" />
+    <circle cx="1080" cy="0" r="2" fill="#50BFFC" />
   </g>
 
-  <!-- Left Side: Brandmark Geometric Icon -->
-  <g transform="translate(60, 95)">
-    <!-- Hexagonal Node Container -->
-    <rect x="0" y="0" width="130" height="130" rx="18" fill="url(#badgeGrad)" stroke="#222529" stroke-width="1.5" />
+  <!-- Left Side: OFFICIAL ESSENBYTE LOGO -->
+  <g transform="translate(60, 95)" filter="url(#markShadow)">
+    <!-- Squircle Container with 145deg #3169ed -> #50bffc -->
+    <rect x="0" y="0" width="115" height="115" rx="28" fill="url(#brandLogoGrad)" stroke="rgba(255,255,255,0.22)" stroke-width="1.5" />
     
-    <!-- Stylized EssenByte 'EB' Monogram & Circuit Pulse -->
-    <path d="M 32 36 L 98 36 L 98 48 L 52 48 L 52 60 L 88 60 L 88 72 L 52 72 L 52 84 L 98 84 L 98 96 L 32 96 Z" fill="none" stroke="#F1F0EA" stroke-width="3" stroke-linejoin="round" />
-    
-    <!-- Byte Accent Node -->
-    <rect x="76" y="46" width="14" height="6" fill="#B6FF3B" />
-    <rect x="66" y="70" width="14" height="6" fill="#B6FF3B" />
-    <circle cx="98" cy="96" r="4" fill="#B6FF3B" />
-
-    <text x="65" y="118" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#B6FF3B" text-anchor="middle" letter-spacing="1">v1.0.PROD</text>
+    <!-- Official "EB" Path Symbol scaled into 115x115 box -->
+    <g transform="translate(18, 18) scale(2.46)">
+      <path d="M7 6.5h12.8M7 16h11M7 25.5h12.8M7 6.5v19M20 6.5h1.8c4 0 5.1 5.9.9 9.2 4.5 3.1 4.6 9.8-.8 9.8H20" 
+            stroke="#FFFFFF" 
+            stroke-width="2.8" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            fill="none" />
+    </g>
   </g>
 
   <!-- Center Main Titles -->
-  <g transform="translate(220, 115)">
+  <g transform="translate(205, 115)">
     <!-- Brand Title -->
-    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5" fill="#F1F0EA">
-      EssenByte<tspan fill="#B6FF3B">.</tspan>Solutions
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5" fill="#EFF5FF">
+      EssenByte<tspan fill="#50BFFC">.</tspan><tspan fill="#84ACEE">Solutions</tspan>
     </text>
 
     <!-- Subtitle / Mission Statement -->
-    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#9B9E99" letter-spacing="0.2">
+    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#95A5C6" letter-spacing="0.2">
       You imagine it, we build it. Scalable digital platforms, hardened backend systems &amp; operational infrastructure.
     </text>
 
     <!-- Pillar Badges Pill Group -->
     <g transform="translate(0, 80)">
       <!-- Badge 1 -->
-      <rect x="0" y="0" width="180" height="28" rx="6" fill="#141619" stroke="#222529" stroke-width="1" />
-      <circle cx="14" cy="14" r="3.5" fill="#B6FF3B" />
-      <text x="26" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#F1F0EA" letter-spacing="0.8">SOFTWARE SYSTEMS</text>
+      <rect x="0" y="0" width="180" height="28" rx="6" fill="#0C172B" stroke="#1D2E4D" stroke-width="1" />
+      <circle cx="14" cy="14" r="3.5" fill="#50BFFC" />
+      <text x="26" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#EFF5FF" letter-spacing="0.8">SOFTWARE SYSTEMS</text>
 
       <!-- Badge 2 -->
-      <rect x="192" y="0" width="185" height="28" rx="6" fill="#141619" stroke="#222529" stroke-width="1" />
-      <circle cx="206" cy="14" r="3.5" fill="#B6FF3B" />
-      <text x="218" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#F1F0EA" letter-spacing="0.8">CLOUD INFRASTRUCTURE</text>
+      <rect x="192" y="0" width="185" height="28" rx="6" fill="#0C172B" stroke="#1D2E4D" stroke-width="1" />
+      <circle cx="206" cy="14" r="3.5" fill="#3D7BFA" />
+      <text x="218" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#EFF5FF" letter-spacing="0.8">CLOUD INFRASTRUCTURE</text>
 
       <!-- Badge 3 -->
-      <rect x="389" y="0" width="185" height="28" rx="6" fill="#141619" stroke="#222529" stroke-width="1" />
-      <circle cx="403" cy="14" r="3.5" fill="#B6FF3B" />
-      <text x="415" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#F1F0EA" letter-spacing="0.8">SECURITY &amp; HARDENING</text>
+      <rect x="389" y="0" width="185" height="28" rx="6" fill="#0C172B" stroke="#1D2E4D" stroke-width="1" />
+      <circle cx="403" cy="14" r="3.5" fill="#50BFFC" />
+      <text x="415" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#EFF5FF" letter-spacing="0.8">SECURITY &amp; HARDENING</text>
 
       <!-- Badge 4 -->
-      <rect x="586" y="0" width="180" height="28" rx="6" fill="#141619" stroke="#222529" stroke-width="1" />
-      <circle cx="600" cy="14" r="3.5" fill="#B6FF3B" />
-      <text x="612" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#F1F0EA" letter-spacing="0.8">HARDWARE &amp; ROBOTICS</text>
+      <rect x="586" y="0" width="180" height="28" rx="6" fill="#0C172B" stroke="#1D2E4D" stroke-width="1" />
+      <circle cx="600" cy="14" r="3.5" fill="#3D7BFA" />
+      <text x="612" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" fill="#EFF5FF" letter-spacing="0.8">HARDWARE &amp; ROBOTICS</text>
     </g>
   </g>
 
   <!-- Right Visual Spec Panel -->
   <g transform="translate(1015, 88)">
-    <rect x="0" y="0" width="125" height="150" rx="10" fill="#111315" stroke="#222529" stroke-width="1" />
-    <path d="M 0 0 L 125 0 L 125 32 L 0 32 Z" fill="#171A1E" rx="10" />
-    <text x="14" y="20" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#9B9E99" letter-spacing="1">STATUS</text>
-    <circle cx="106" cy="16" r="4" fill="#B6FF3B" />
+    <rect x="0" y="0" width="125" height="150" rx="10" fill="#0A1526" stroke="#1D2E4D" stroke-width="1" />
+    <path d="M 0 0 L 125 0 L 125 32 L 0 32 Z" fill="#102038" rx="10" />
+    <text x="14" y="20" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#8FA4C7" letter-spacing="1">STATUS</text>
+    <circle cx="106" cy="16" r="4" fill="#50BFFC" />
 
-    <text x="14" y="54" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#6E737A">AVAILABILITY</text>
-    <text x="14" y="68" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F1F0EA">99.98%</text>
+    <text x="14" y="54" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#5E7599">AVAILABILITY</text>
+    <text x="14" y="68" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#EFF5FF">99.98%</text>
 
-    <text x="14" y="94" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#6E737A">DEPLOYED APIS</text>
-    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F1F0EA">v1 / PROD</text>
+    <text x="14" y="94" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#5E7599">DEPLOYED APIS</text>
+    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#EFF5FF">v1 / PROD</text>
 
-    <text x="14" y="132" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#B6FF3B">● ALL SYSTEMS GO</text>
+    <text x="14" y="132" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#50BFFC">● ALL SYSTEMS GO</text>
   </g>
 
-  <!-- Bottom Divider Line with Accent Point -->
-  <line x1="60" y1="285" x2="1140" y2="285" stroke="#222529" stroke-width="1" />
+  <!-- Bottom Divider Line -->
+  <line x1="60" y1="285" x2="1140" y2="285" stroke="#1D2E4D" stroke-width="1" />
   
   <g transform="translate(60, 308)">
-    <text x="0" y="0" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#6E737A" letter-spacing="1.5">
-      CORE STACK: <tspan fill="#F1F0EA">NEXT.JS</tspan> · <tspan fill="#F1F0EA">PYTHON API</tspan> · <tspan fill="#F1F0EA">MARIADB</tspan> · <tspan fill="#F1F0EA">REDIS</tspan> · <tspan fill="#F1F0EA">DOCKER</tspan> · <tspan fill="#F1F0EA">LINUX VPS</tspan> · <tspan fill="#F1F0EA">CLOUDFLARE</tspan>
+    <text x="0" y="0" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#6982A8" letter-spacing="1.5">
+      CORE STACK: <tspan fill="#EFF5FF">NEXT.JS</tspan> · <tspan fill="#EFF5FF">PYTHON API</tspan> · <tspan fill="#EFF5FF">MARIADB</tspan> · <tspan fill="#EFF5FF">REDIS</tspan> · <tspan fill="#EFF5FF">DOCKER</tspan> · <tspan fill="#EFF5FF">LINUX VPS</tspan> · <tspan fill="#EFF5FF">CLOUDFLARE</tspan>
     </text>
   </g>
 
   <g transform="translate(1015, 308)">
-    <text x="125" y="0" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#B6FF3B" text-anchor="end" letter-spacing="1">
+    <text x="125" y="0" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#50BFFC" text-anchor="end" letter-spacing="1">
       ESSENBYTE.COM ↗
     </text>
   </g>
