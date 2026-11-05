@@ -2,40 +2,36 @@
   <defs>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#081020" />
-      <stop offset="100%" stop-color="#050A14" />
+      <stop offset="100%" stop-color="#040812" />
     </linearGradient>
-    <linearGradient id="brandLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3169ED" />
-      <stop offset="100%" stop-color="#50BFFC" />
+    <linearGradient id="officialLogoGrad" x1="20.75" y1="256.315" x2="491.3301" y2="256.315" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FDFB" />
+      <stop offset="100%" stop-color="#1165F9" />
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="110" rx="10" fill="url(#footerBg)" stroke="#1D2E4D" stroke-width="1.2" />
+  <rect width="1200" height="110" rx="10" fill="url(#footerBg)" stroke="#1B2D4A" stroke-width="1.2" />
 
-  <!-- Left Mini Mark & Tagline -->
-  <g transform="translate(45, 30)">
-    <!-- Mini Logo -->
-    <rect x="0" y="2" width="46" height="46" rx="12" fill="url(#brandLogoGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
-    <g transform="translate(7, 9) scale(0.98)">
-      <path d="M7 6.5h12.8M7 16h11M7 25.5h12.8M7 6.5v19M20 6.5h1.8c4 0 5.1 5.9.9 9.2 4.5 3.1 4.6 9.8-.8 9.8H20" 
-            stroke="#FFFFFF" 
-            stroke-width="2.8" 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
-            fill="none" />
+  <!-- Left Official Logo Mark & Slogan -->
+  <g transform="translate(45, 26)">
+    <!-- Container -->
+    <rect x="0" y="2" width="56" height="56" rx="12" fill="#0C172B" stroke="#1B2D4A" stroke-width="1" />
+    <!-- Official Vector Emblem -->
+    <g transform="translate(7, 8) scale(0.082)">
+      <path d="m491.3301,329.92c0,76.6-56.6001,138.58-126.5801,138.58h-93.74l79.3401-81h12.4099c25.9299,0,46.88-21.48,46.88-48,0-30.4-20.9501-55-46.88-55h-154.36l78.08-79h14.76c24.89,0,45.05-17.56,45.05-39.25,0-23.63-15.6801-42.75-35.05-42.75h-41.48l76.53-77.32c44.09,16.74,84.34,57.21,80.8199,106.38l.39,23.84c-.02,14.06-3.9299,28.36-12.35,39.75,9.77,4.59,19.02,10.28,27.5,16.94,29.66,23.3199,48.6801,58.78,48.6801,96.83Zm-355.8301,59.58v-61H53.5v142l175.12-1.29,79.04-79.71h-172.16ZM306.45,42.5l-205.8099-.37L20.75,123.5l205.4399.37,80.26-81.37ZM53.5,166.5v118l112,1.47,81.21-80.47h-111.21v-39H53.5Z" fill="url(#officialLogoGrad)"/>
     </g>
 
-    <text x="64" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#EFF5FF">
-      YOU IMAGINE IT, WE BUILD IT<tspan fill="#50BFFC">.</tspan>
+    <text x="76" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#EFF5FF">
+      YOU IMAGINE IT, WE BUILD IT<tspan fill="#00FDFB">.</tspan>
     </text>
-    <text x="64" y="40" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E85A8" letter-spacing="1.5">
+    <text x="76" y="44" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E85A8" letter-spacing="1.5">
       ESSENBYTE SOLUTIONS // END-TO-END ENGINEERING &amp; DIGITAL INFRASTRUCTURE
     </text>
   </g>
 
   <!-- Right Side: Links & Domain -->
   <g transform="translate(980, 42)">
-    <text x="175" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#50BFFC" text-anchor="end" letter-spacing="1">
+    <text x="175" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#00FDFB" text-anchor="end" letter-spacing="1">
       ESSENBYTE.COM ↗
     </text>
     <text x="175" y="28" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#6E85A8" text-anchor="end" letter-spacing="0.5">
